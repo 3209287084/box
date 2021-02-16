@@ -6,7 +6,7 @@ export default {
     // 命名空间
     namespaced:true,
      state:{
-         item:{name:'刘子岳可真帅',key:1,ios:"17611035880",a:"硕大的"},
+         item:{name:'刘子岳可真帅不一样歌剧院',key:1,ios:"17611035880",a:"硕大的"},
          list:{}
      },
      getters:{
