@@ -6,7 +6,7 @@ export default {
     // 命名空间
     namespaced:true,
      state:{
-         item:{name:'刘子岳'},
+         item:{name:'我不是我'},
          list:{}
      },
      getters:{
