@@ -1,4 +1,4 @@
-
+﻿
 const path =  require('path');
 const resolve = (dir) => path.join(__dirname, dir);
 module.exports = {
@@ -45,6 +45,10 @@ module.exports = {
         //     //=> 跨域地址 => http://api.yuedada.cn/user/add
         //     // '/':{
         //     //     target:"http://api.yuedada.cn/",  //=> 代理地址
+        //     //     changeOrigin: true, //=> 允许跨越
+        //     // }
+	//     // '/app':{
+        //     //     target:"http://api.baidu.cn/",  //=> 代理地址
         //     //     changeOrigin: true, //=> 允许跨越
         //     // }
         // }
