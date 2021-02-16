@@ -13,7 +13,7 @@ const routes = [
       //=> hash路径
       name:'Home',
       path:'/Home',
-      //=> 渲染组件
+      //=> 渲染组件啊啊
       component:Home,
     },
      {
