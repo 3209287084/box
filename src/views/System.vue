@@ -1,13 +1,11 @@
 <template>
- <div></div>
+    <div>2</div>
 </template>
 <script>
 export default {
     
 }
 </script>
-<style scoped lang="less">
-.el-aside{
-    background: red;
-}
+<style scoped>
+
 </style>

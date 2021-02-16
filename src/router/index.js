@@ -1,26 +1,37 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-
 Vue.use(VueRouter)
-
+//=> 配置一级路由
 const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+     {
+       path:'/',
+       //=> 重定向
+       redirect:'/Home'
+     },
+     {
+      //=> hash路径
+      name:'Home',
+      path:'/Home',
+      //=> 渲染组件
+      component:Home,
+    },
+     {
+      name:'Custom/:lx',
+       path:'/Custom',
+       component:()=>import('@/views/Custom'),
+     },
+     
+     {
+      name:'System',
+       path:'/System',
+       component:()=>import('@/views/System'),
+     }
 ]
 
 const router = new VueRouter({
+  //=> 设置路由模式： hash(默认)/history
+  mode:'hash',
   routes
 })
 
