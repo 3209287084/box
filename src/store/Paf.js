@@ -1,9 +1,9 @@
-/**
+﻿/**
  * 个人中心板块中的公共状态组件
  */
 import *as types from './types'
 export default {
-    // 命名空间
+    // 命名空间adsadada
     namespaced:true,
      state:{
          item:{name:'我不是我',id:'1'},
