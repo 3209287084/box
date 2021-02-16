@@ -52,6 +52,10 @@ module.exports = {
         //     //     changeOrigin: true, //=> 允许跨越
         //     // }
         // }
-       
+       //     // '/add':{
+        //     //     target:"http://api.baidu.cn/",  //=> 代理地址
+        //     //     changeOrigin: true, //=> 允许跨越
+        //     // }
+        // }
     } 
   }
